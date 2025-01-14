@@ -20,7 +20,7 @@ class Mercado
     end
 
     def comprar
-        puts "Você comprou o produto #{@produto.name} no valor de R$#{@produto.price}"
+        "Você comprou o produto #{@produto.name} no valor de R$#{@produto.price}"
     end
 end
 
